@@ -50,6 +50,12 @@ int main( int argc, char* argv[] ) {
     // Declaração do objeto que representa o ambiente.
     environm::soccer::clientEnvironm environment;
 
+    // *************************************** CONEXÃO ***************************************
+//    printf("Enter Server Adress: ");
+//    scanf("%s",&serverAdress);
+//    printf("Port Number:");
+//    scanf("%d",&serverPort);
+
     if ( argc != 3 ) {
         printf("\nInvalid parameters. Expecting:");
         printf("\nSoccerPlayer SERVER_ADDRESS_STRING SERVER_PORT_NUMBER\n");
